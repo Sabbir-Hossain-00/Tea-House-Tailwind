@@ -27,6 +27,7 @@
 </head>
 <body class="manrope-normal">
     <main class="container mx-auto px-4 md:px-10">
+        <!-- header{banner} -->
        <header class="py-5 lg:py-20">
            <!-- banner -->
             <section class="grid grid-cols-1 md:grid-cols-2">
@@ -42,24 +43,26 @@
                     </div>
                 </div>
                 <!-- banner-img -->
-                <div class="relative z-10">
+                <div class="relative">
                     <!-- img -->
-                    <div>
-                        <img class="w-full z-10" src="images/banner.png" alt="">
+                    <div class="z-10">
+                        <img class="w-full" src="images/banner.png" alt="">
                     </div>
                     <!-- card -->
-                    <div class="flex items-center gap-3 shadow-lg px-4 py-2 rounded-md absolute z-50 bottom-[20px] left-[20px] xl:left-[100px]">
-                        <i class="ri-star-fill text-2xl text-amber-500"></i>
-                        <!-- text  -->
-                         <div>
-                            <h1 class="text-2xl font-bold">5.00</h1>
-                            <p class="text-[#777777]">Trust pilot rating</p>
-                         </div>
-                    </div>
+                     <div class="z-50 absolute bottom-[20px] left-[20px] xl:left-[100px]">
+                        <div class="flex items-center gap-3 shadow-lg px-4 py-2 rounded-md">
+                            <i class="ri-star-fill text-2xl text-amber-500"></i>
+                            <!-- text  -->
+                             <div>
+                                <h1 class="text-2xl font-bold">5.00</h1>
+                                <p class="text-[#777777]">Trust pilot rating</p>
+                             </div>
+                        </div>
+
+                     </div>
                 </div>
             </section>
        </header>
-
 
        <!-- fetured product -->
         <section class="mb-20">
@@ -122,6 +125,50 @@
                 <p class="text-[#777777] mb-4">Premium Quality that makes tea more elegant and more durable when you use it.</p>
             </div>
         </section>
+
+        <!-- super clients section -->
+         <section class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] md:px-[70px] md:py-[100px] px-10 py-15 grid grid-cols-1 lg:grid-cols-2 gap-20 rounded-lg text-white mb-20">
+            <!-- text -->
+             <div class="flex items-center">
+                <div class="md:w-4/5">
+                    <h1 class="text-3xl md:text-4xl xl:text-5xl font-bold mb-5">Meet Our Super Clients</h1>
+                    <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                    <button class=" bg-white text-[#FF0000] rounded px-4 py-3 ">Show All</button>
+    
+                 </div>
+             </div>
+            <!-- cards -->
+             <div class="relative">
+
+                <div class="md:absolute top-35 -left-40 z-10">
+                    <!-- card 3 -->
+                <div class=" bg-white relative rounded-lg md:w-3/4 p-[40px] md:ml-28 mb-10">
+                    <img class="absolute -top-5 -left-5 bg-white rounded-full p-1" src="images/client.png" alt="">
+                    <p class="text-[#777777] mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h4 class="text-black ">Ilham Yuda</h4>
+                    <p class="text-[#777777]">Businessman</p>
+                </div>
+                </div>
+            
+                <!-- card 1 -->
+                <div class=" bg-white relative rounded-lg md:w-3/4 p-[40px] md:ml-28 mb-10 md:opacity-40">
+                    <img class="absolute -top-5 -left-5 bg-white rounded-full p-1" src="images/client.png" alt="">
+                    <p class="text-[#777777] mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h4 class="text-black ">Ilham Yuda</h4>
+                    <p class="text-[#777777]">Businessman</p>
+                </div>
+
+                 <!-- card 2 -->
+                 <div class=" bg-white relative rounded-lg md:w-3/4 p-[40px] md:ml-28 md:opacity-40">
+                    <img class="absolute -top-5 -left-5 bg-white rounded-full p-1" src="images/client.png" alt="">
+                    <p class="text-[#777777] mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h4 class="text-black ">Ilham Yuda</h4>
+                    <p class="text-[#777777]">Businessman</p>
+                </div>
+
+
+             </div>
+         </section>
 
 
     </main>
